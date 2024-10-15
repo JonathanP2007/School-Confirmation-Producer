@@ -77,4 +77,4 @@ draw.text(time_position, time, font=time_font, fill=text_color)
 output_path = reversetext(shem) + '.jpg'
 image.save(output_path)
 
-print(f"Image saved as {output_path}")
+print(f"התמונה נשמרה כ {output_path}")
