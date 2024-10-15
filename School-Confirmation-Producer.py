@@ -1,3 +1,8 @@
+import subprocess
+import sys
+
+subprocess.check_call([sys.executable, "-m", "pip", "install", "Pillow"])
+
 from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
 
