@@ -39,7 +39,7 @@ else:
 
 font_path = "Alef-bold.ttf"
 number_font_path = "Roboto-Bold.ttf"
-font_size = 34
+font_size = 30
 number_size = 28
 shaa_size = 29
 time_size = 38
@@ -60,7 +60,7 @@ kita_number_width = kita_numberbox[2] - kita_numberbox[0]  # Width of the text
 
 # Define text position (adjust as needed)
 image_width, image_height = image.size
-shem_position = (image_width - shem_width - 215, 354)
+shem_position = (image_width - shem_width - 215, 358)
 kita_position = (image_width - kita_width - 640, 354)
 if len(kita) != 1:
     kita_number_position = (image_width - kita_number_width - 671, 364)
